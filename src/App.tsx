@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { SFCCounterConnected } from './scenes/counter/counter.connected';
 
 class App extends React.Component {
   public render() {
@@ -7,6 +8,9 @@ class App extends React.Component {
         <header className="header">
           <h1 className="text-center">Todo App</h1>
         </header>
+        <section>
+          <SFCCounterConnected label="test" />
+        </section>
       </div>
     );
   }
