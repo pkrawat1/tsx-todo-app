@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export interface SFCCounterProps {
+interface SFCCounterProps {
   readonly label: string;
   readonly count: number;
   onIncrement: () => any;
